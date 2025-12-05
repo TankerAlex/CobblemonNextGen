@@ -87,7 +87,7 @@ PHCApi.registerHunt(hunt4);
 
 // ==================== ПОКЕОХОТА №5 - МАСТЕРСТВО (СРЕДНЕ-СЛОЖНО) ====================
 // Редкие и мощные покемоны - финальный челлендж
-// 1 час = 3600 секунд
+// 2 часа = 7200 секунд
 
 val hunt5_pokemon1 = PHCApi.createPokemonFilter(<pokemon_species:cobblemon:alakazam>, null, null, null, null, null, null, null, null, null, null);
 val hunt5_pokemon2 = PHCApi.createPokemonFilter(<pokemon_species:cobblemon:gengar>, null, null, null, null, null, null, null, null, null, null);
@@ -95,7 +95,7 @@ val hunt5_pokemon3 = PHCApi.createPokemonFilter(<pokemon_species:cobblemon:arcan
 val hunt5_pokemon4 = PHCApi.createPokemonFilter(<pokemon_species:cobblemon:exeggutor>, null, null, null, null, null, null, null, null, null, null);
 val hunt5_pokemon5 = PHCApi.createPokemonFilter(<pokemon_species:cobblemon:steelix>, null, null, null, null, null, null, null, null, null, null);
 
-val hunt5 = PHCApi.createHunt("Охота №5 - Мастерство", 3600, "Ты достиг мастерства! Ловите мощных покемонов - ты готов к этому!");
+val hunt5 = PHCApi.createHunt("Охота №5 - Мастерство", 7200, "Ты достиг мастерства! Ловите мощных покемонов - ты готов к этому!");
 
 hunt5.addPokemonOption(hunt5_pokemon1, 75, [<cobblemon:cr.amplifier.spa>], "Поймана Алаказам! Психический гений!", "Найди гениального Алаказама - мастера психики!");
 hunt5.addPokemonOption(hunt5_pokemon2, 72, [<cobblemon:cr.amplifier.spd>], "Поймана Генгар! Призрачный мастер!", "Найди ужасного Генгара - повелителя теней!");
